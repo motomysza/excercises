@@ -10,7 +10,7 @@ for element in new_data:
     if element["gender"] == "female":
         single_sentence += " jest dziewczyną"
     elif element["gender"] == "male":
-        single_sentence += " jest mężczyzną"
+        single_sentence += " jest chłopakiem"
     if element["homeworld"] != "unknown":
         single_sentence += " i pochodzi z " + element["homeworld"]
     single_sentence += ".\n"
