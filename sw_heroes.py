@@ -8,7 +8,7 @@ for element in new_data:
     if element["mass"] != "unknown":
         single_sentence += " waży " + element["mass"] + " kg"
     if element["gender"] == "female":
-        single_sentence += " jest kobietą"
+        single_sentence += " jest dziewczyną"
     elif element["gender"] == "male":
         single_sentence += " jest mężczyzną"
     if element["homeworld"] != "unknown":
